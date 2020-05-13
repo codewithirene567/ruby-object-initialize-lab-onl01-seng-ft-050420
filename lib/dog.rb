@@ -1,12 +1,8 @@
 class Dog
-  def initialize(name)
+  def initialize(name, breed = "Mutt")
     @name=name
-  end
-  def initialize(breed)
     @breed=breed
-    if breed 
   end
 end
-  lassie = Dog.new("Mutt")
- 
+  lassie = Dog.new("collie")
  
