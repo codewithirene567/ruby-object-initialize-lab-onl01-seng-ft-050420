@@ -4,6 +4,7 @@ class Dog
   end
   def initialize(breed)
     @breed=breed
+    if breed 
   end
 end
   lassie = Dog.new("Mutt")
